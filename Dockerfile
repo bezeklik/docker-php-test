@@ -1,4 +1,5 @@
 # https://github.com/docker-library/php/blob/master/7.2/stretch/apache/Dockerfile
+# https://github.com/webdevops/Dockerfile/blob/master/docker/php/centos-7/Dockerfile
 
 FROM centos:7
 LABEL maintainer "Bezeklik"
