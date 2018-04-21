@@ -3,6 +3,8 @@ LABEL maintainer "Bezeklik"
 
 RUN yum --assumeyes install centos-release-scl-rh && \
     yum --assumeyes install rh-php56{,-php{,-{gd,intl,mbstring,mysqlnd,opcache,pear,pecl-{memcache,xdebug},process,xml}}} && \
+    yum --assumeyes install centos-release-scl && \
+    yum --assumeyes install sclo-php56-php-pecl-apcu && \
     source scl_source enable rh-php56 && \
     echo -e '#!/bin/bash\nsource scl_source enable rh-php56' > /etc/profile.d/rh-php56.sh && \
     ln -s /etc/{opt/rh/rh-php56/,}php.ini && \
