@@ -2,10 +2,14 @@
 
 # Supported tags and respective `Dockerfile` links
 
-- `7.2`, `7`, `latest` [(*Dockerfile*)]()
-- `7.1` [(*Dockerfile*)]()
-- `7.0` [(*Dockerfile*)]()
-- `5.6`, `5` [(*Dockerfile*)]()
+- `7.2-remi`, `7.2`, `7`, `latest` [(*Dockerfile*)]()
+- `7.2-rhscl`, `7-rhscl` [(*Dockerfile*)]()
+- `7.1-remi`, `7.1` [(*Dockerfile*)]()
+- `7.1-rhscl` [(*Dockerfile*)]()
+- `7.0-remi`, `7.0` [(*Dockerfile*)]()
+- `7.0-rhscl` [(*Dockerfile*)]()
+- `5.6-remi`, `5.6`, `5` [(*Dockerfile*)]()
+- `5.6-rhscl` [(*Dockerfile*)]()
 - `5.4.16`, `5.4` [(*Dockerfile*)]()
 - `5.3.3`, `5.3` [(*Dockerfile*)]()
 - `5.1.6`, `5.1` [(*Dockerfile*)]()
