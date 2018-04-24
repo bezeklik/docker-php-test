@@ -10,9 +10,18 @@
 - `7.0-rhscl` [(*Dockerfile*)]()
 - `5.6-remi`, `5.6`, `5` [(*Dockerfile*)]()
 - `5.6-rhscl` [(*Dockerfile*)]()
+- `5.5` [(*Dockerfile*)]()
 - `5.4.16`, `5.4` [(*Dockerfile*)]()
 - `5.3.3`, `5.3` [(*Dockerfile*)]()
 - `5.1.6`, `5.1` [(*Dockerfile*)]()
+
+# Difference from the official image
+
+- image based on CentOS
+
+- install via yum repository
+
+- support for PHP 5.1, 5.3, 5.4, 5.5
 
 # Quick reference
 
@@ -35,8 +44,6 @@ https://github.com/bezeklik/docker-php/issues
 - **Source of this description:**
 
 - **Supported Docker versions:**
-
-# Difference from the official image
 
 # How to use this image
 
